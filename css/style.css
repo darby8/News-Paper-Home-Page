@@ -1,0 +1,61 @@
+*{
+    background-color: hsl(36, 100%, 99%);
+    margin: 5px 10px;
+    font-size: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+}
+.section1{
+    width: 70%;
+}
+.section2{
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+.WebHeading{
+    display: flex;
+}
+button{
+    background: hsl(5, 85%, 63%);
+    font-weight: 600;
+    color: wheat;
+    width: 150px;
+    height: 43px;
+}
+.section2{
+    background-color: hsl(240, 100%, 5%);
+    margin-top: 15px;
+    h2,p,div,h1{
+        background-color: hsl(240, 100%, 5%);
+        color:hsl(36, 100%, 99%);
+    }
+}
+
+h1{
+    color: hsl(35, 77%, 62%) !important;
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    
+}
